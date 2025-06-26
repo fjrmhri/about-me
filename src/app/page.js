@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-const STEAM_API_KEY = "F43969BF9A1DD05A93C5806D719B5B7B"; # Ganti dengan STEAM API KEY kalian, kalian bisa kunjungi website berikut https://steamcommunity.com/dev
-const STEAM_ID = "76561199807130441"; # Untuk STEAM ID bisa cek diprofile 
+const STEAM_API_KEY = "F43969BF9A1DD05A93C5806D719B5B7B"; // Ganti dengan STEAM API KEY kalian, kalian bisa kunjungi website berikut https://steamcommunity.com/dev
+const STEAM_ID = "76561199807130441"; // Untuk STEAM ID bisa cek diprofile 
 
 async function getOwnedGames() {
   const res = await fetch(
