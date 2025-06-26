@@ -47,7 +47,7 @@ async function getSteamProfile() {
 export default async function Home() {
   const steamProfile = await getSteamProfile();
   const games = await getOwnedGames();
-  const gamesToShow = games.slice(0, 15);
+  const gamesToShow = games.slice(0, 999);
 
   const achievementsPerGame = await Promise.all(
     gamesToShow.map(async (game) => {
@@ -133,7 +133,7 @@ export default async function Home() {
               >
                 <path d="M12 2l2.39 7.26H22l-6.19 4.5L17.61 22 12 17.77 6.39 22l1.8-8.24L2 9.26h7.61z" />
               </svg>
-              Achievements (15 Game Pertama)
+              Achievements
             </h2>
             {achievementsPerGame.map((game, idx) => (
               <div key={idx} className="mb-10">
