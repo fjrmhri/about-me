@@ -79,9 +79,9 @@ export default async function Home() {
             About Me
           </h1>
           <p className="mt-2 text-center text-slate-600 text-lg max-w-2xl mx-auto font-light">
-            Halo! Saya <span className="font-semibold">Aruna</span>, seorang{" "}
-            <span className="font-medium">Web Developer</span> yang suka{" "}
-            <i>gaming</i>, <i>coding</i>, dan <i>membaca</i>.
+            Halo! Saya <span className="font-semibold">fjr</span>, seorang{" "}
+            <span className="font-medium">Saya Ingin memperlihatkan</span> Achievements{" "}
+            <i>saya </i>, <i>coding</i>, di <i>steam</i>.
           </p>
         </div>
       </header>
