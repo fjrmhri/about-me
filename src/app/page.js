@@ -80,8 +80,8 @@ export default async function Home() {
           </h1>
           <p className="mt-2 text-center text-slate-600 text-lg max-w-2xl mx-auto font-light">
             Halo! Saya <span className="font-semibold">fjr</span>, {" "}
-            <span className="font-medium">seorang programmer pemula</span> dengan hobi bermain game.{" "}
-            <i>Saya ingin menunjukkan profil </i>, <i>dan achievement Steam saya. </i>,<i>Mari berteman di Steam!</i>.
+            <span className="font-medium">seorang programmer pemula</span> dengan hobi bermain game.
+             Saya ingin menunjukkan profil, dan achievement <i>Steam</i> saya. ,Mari berteman di Steam!.
           </p>
         </div>
       </header>
